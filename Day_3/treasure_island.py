@@ -30,13 +30,13 @@ if input1 == "right":
     print("You fell down in the canyon! Game over!")
 else:
     print("You landed on the island surrounded by water.")
-    input2 = input("Do you want to swim or wait? \n Type 'swim' or 'wait' :\n")
+    input2 = input("Do you want to swim or wait? \n Type 'swim' or 'wait' :\n").lower()
 
     if input2 == "swim":
         print("You got attacked by crocodiles! Game over!")
     else:
         print("The boat arrived and left you in front of  three doors.")
-        input3 = input("Which door you want to take Red, Yellow or Blue. \n Type 'red' or 'yellow' or 'blue' : \n")
+        input3 = input("Which door you want to take Red, Yellow or Blue. \n Type 'red' or 'yellow' or 'blue' : \n").lower()
         if input3 == 'red' or input3 == 'blue':
             print("You got engulfed in flame! Game over!")
         else :
